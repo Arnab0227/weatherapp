@@ -27,7 +27,7 @@ export const getCityWeather = async (city) => {
 
     if (data && data.city && data.city.country) {
       const countryName = await getCountryName(data.city.country);
-      data.city.fullCountryName = countryName; // Add the full country name to the data
+      data.city.fullCountryName = countryName; 
     }
 
     return data;

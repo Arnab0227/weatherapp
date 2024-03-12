@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = '821ddb3d5f7b9f8e634288f8080a6301'; // Replace with your actual API key
+const API_KEY = '821ddb3d5f7b9f8e634288f8080a6301';
 
 // Function to get full country name based on country code
 const getCountryName = async (countryCode) => {

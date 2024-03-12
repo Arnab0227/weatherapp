@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { getCityWeather } from "../data/ApiCall"; // Assuming you have an apiCall.js file with the API call function
+import { getCityWeather } from "../data/ApiCall"; 
 import { RxCross1 } from "react-icons/rx";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { IoSearch } from "react-icons/io5";
